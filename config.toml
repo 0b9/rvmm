@@ -31,6 +31,13 @@ arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
+[Reddit]
+enabled = true
+patches-source = "inotia00/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
+
 [News]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-news"
