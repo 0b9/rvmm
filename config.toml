@@ -15,7 +15,7 @@ excluded-patches = """\
   """
 
 [Music]
-enabled = false
+#enabled = false
 app-name = "Music"
 #patches-source = "inotia00/revanced-patches"
 #cli-source = "inotia00/revanced-cli"
@@ -26,7 +26,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [YouTube]
-enabled = false
+#enabled = false
 app-name = "YouTube"
 #patches-source = "inotia00/revanced-patches"
 #cli-source = "inotia00/revanced-cli"
@@ -37,7 +37,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Reddit]
-enabled = false
+#enabled = false
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 apkmirror-dpi = "120-640dpi"
