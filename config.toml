@@ -35,7 +35,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Reddit]
-#enabled = false
+enabled = false
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 dpi = "120-640dpi"
