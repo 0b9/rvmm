@@ -15,9 +15,6 @@ arch = "arm64-v8a"
 [Music]
 #enabled = false
 app-name = "Music"
-#patches-source = "inotia00/revanced-patches"
-#cli-source = "inotia00/revanced-cli"
-#rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
@@ -26,9 +23,6 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 [YouTube]
 #enabled = false
 app-name = "YouTube"
-#patches-source = "inotia00/revanced-patches"
-#cli-source = "inotia00/revanced-cli"
-#rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
@@ -36,8 +30,6 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Reddit]
 enabled = true
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
 dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
