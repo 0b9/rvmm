@@ -1,16 +1,12 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
+cli-source = "MorpheApp/morphe-cli"
+patches-source = "MorpheApp/morphe-patches"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
-
-[Spotify]
-enabled = false
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
-arch = "arm64-v8a"
 
 [Music]
 #enabled = false
@@ -19,6 +15,9 @@ build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+excluded-patches = """\
+  'Custom branding' \
+  """
 
 [YouTube]
 #enabled = false
@@ -27,6 +26,9 @@ build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+excluded-patches = """\
+  'Custom branding' \
+  """
 
 [Reddit]
 enabled = true
@@ -41,6 +43,12 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-news"
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath"
 dpi = "120-640dpi"
+
+[Spotify]
+enabled = false
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+arch = "arm64-v8a"
 
 #[Backdrops]
 #uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
