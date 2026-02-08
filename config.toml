@@ -13,7 +13,7 @@ patches-source = "MorpheApp/morphe-patches"
 app-name = "Music"
 build-mode = "both"
 arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 excluded-patches = """\
   'Custom branding' \
@@ -24,7 +24,7 @@ excluded-patches = """\
 app-name = "YouTube"
 build-mode = "both"
 arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 excluded-patches = """\
   'Custom branding' \
@@ -33,7 +33,8 @@ excluded-patches = """\
 [Reddit]
 enabled = true
 dpi = "120-640dpi"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android
 
 [News]
 enabled = false
