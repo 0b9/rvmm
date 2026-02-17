@@ -20,7 +20,7 @@ excluded-patches = """\
   """
 
 [YouTube]
-#enabled = false
+enabled = false
 app-name = "YouTube"
 build-mode = "both"
 arch = "arm64-v8a"
@@ -31,7 +31,7 @@ excluded-patches = """\
   """
 
 [Reddit]
-enabled = true
+enabled = false
 dpi = "120-640dpi"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
