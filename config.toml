@@ -10,12 +10,12 @@ patches-source = "MorpheApp/morphe-patches"
 
 [Music]
 #enabled = false
-version = "8.10.52"
 app-name = "Music"
 build-mode = "both"
 arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/com.google.android.apps.youtube.music_8.40.54-84054240_minapi26arm64-v8anodpi/com.google.android.apps.youtube.music_8.40.54-84054240_minAPI26%28arm64-v8a%29%28nodpi%29_apkmirror.com.apk"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+#uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 excluded-patches = """\
   'Custom branding' \
   """
