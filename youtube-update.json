@@ -1,6 +1,6 @@
 {
-  "version": "v20.47.62 (patches 1.24.0.mpp)",
-  "versionCode": 48,
-  "zipUrl": "https://github.com/0b9/rvmm/releases/download/48/youtube-revanced-module-v20.47.62-all.zip",
+  "version": "v20.47.62 (patches 1.25.0.mpp)",
+  "versionCode": 49,
+  "zipUrl": "https://github.com/0b9/rvmm/releases/download/49/youtube-revanced-module-v20.47.62-all.zip",
   "changelog": "https://raw.githubusercontent.com/0b9/rvmm/update/build.md"
 }
