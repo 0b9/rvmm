@@ -47,7 +47,7 @@ enable-update-checks = true
 arch = "arm64-v8a"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
 patcher-args = """\
-  -continue-on-error \
+  --continue-on-error \
   """
 
 [News]
