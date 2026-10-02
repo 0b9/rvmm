@@ -46,6 +46,9 @@ direct-dlurl = "https://ia600603.us.archive.org/3/items/com.instagram.android-43
 enable-update-checks = true
 arch = "arm64-v8a"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
+patcher-args = """\
+  -continue-on-error \
+  """
 
 [News]
 enabled = false
