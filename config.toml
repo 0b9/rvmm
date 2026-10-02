@@ -42,7 +42,7 @@ enable-update-checks = true
 [Instagram]
 patches-source = "crimera/piko"
 cli-source = "MorpheApp/morphe-cli"
-direct-dlurl = "https://github.com/0b9/wrp/releases/download/release/com.instagram.android-439.0.0.37.89-arm64-v8a.apk"
+direct-dlurl = "https://temp.sh/jvpoT/com.instagram.android-439.0.0.37.89-arm64-v8a.apk"
 enable-update-checks = true
 arch = "arm64-v8a"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
