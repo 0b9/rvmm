@@ -42,9 +42,10 @@ enable-update-checks = true
 [Instagram]
 patches-source = "crimera/piko"
 cli-source = "MorpheApp/morphe-cli"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
+direct-dlurl = "https://files.catbox.moe/kq12g1.apk"
 enable-update-checks = true
+#arch = "arm64-v8a"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
 
 [News]
 enabled = false
