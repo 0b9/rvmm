@@ -33,13 +33,14 @@ excluded-patches = """\
 enable-update-checks = true
 
 [Reddit]
-#enabled = false
+enabled = false
 dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 enable-update-checks = true
 
 [Instagram]
+enabled = false
 patches-source = "crimera/piko"
 cli-source = "MorpheApp/morphe-cli"
 direct-dlurl = "https://ia600603.us.archive.org/3/items/com.instagram.android-439.0.0.37.89-arm64-v8a/com.instagram.android-439.0.0.37.89-arm64-v8a.apk"
